@@ -1,0 +1,23 @@
+# Sırlar ve geçici dosyalar
+.env
+*.key
+*.pem
+credentials/
+secrets/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Node
+node_modules/
+.next/
+
+# Yerel index ve cache (genois runtime)
+genois/inbox/
+genois/approved/raw/
+genois/manifests/*.local.json
+
+# Log
+*.log
